@@ -4,7 +4,7 @@
     opacity: 1; /* Fully visible */
   }
   50% {
-    transform: scale(1.1); /* Slightly enlarged */
+    transform: scale(1.05); /* Slightly enlarged */
     opacity: 1; /* Slightly faded */
   }
   100% {
@@ -21,11 +21,19 @@ body {
   overflow: hidden; /* Prevent scrolling */
 }
 
-main {
-  height: 100vh; /* Full viewport height */
+/* main {
+  height: 100vh;  
   display: flex;
   justify-content: center;
   align-items: center;
+} */
+main {
+  height: 100vh;
+  width: 100vw; /* Ensures the container takes full width */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
 
 .ross__image {
