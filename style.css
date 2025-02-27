@@ -1,0 +1,50 @@
+@keyframes pulsate {
+  0% {
+    transform: scale(1); /* Normal size */
+    opacity: 1; /* Fully visible */
+  }
+  50% {
+    transform: scale(1.1); /* Slightly enlarged */
+    opacity: 1; /* Slightly faded */
+  }
+  100% {
+    transform: scale(1); /* Return to normal size */
+    opacity: 1; /* Fully visible */
+  }
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden; /* Prevent scrolling */
+}
+
+main {
+  height: 100vh; /* Full viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ross__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.ross__title {
+  position: absolute;
+  top: 8%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  font-size: 200px;
+  color: rgb(249, 239, 54);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  animation: pulsate 1.5s ease-in-out infinite; /* Apply animation */
+}
+span {
+  color: #0041a3;
+  animation: pulsate 1.5s ease-in-out infinite; /* Apply animation */
+}
