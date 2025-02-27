@@ -43,10 +43,10 @@ main {
 }
 .ross__title {
   position: absolute;
-  top: 25%;
-  left: 28%;
+  top: 20%;
+  left: 25%;
   transform: translate(-50%, -50%);
-  font-size: 200px;
+  font-size: 250px;
   color: rgb(249, 239, 54);
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   font-family: "Comic Sans MS", cursive, sans-serif;
