@@ -42,9 +42,9 @@ main {
   color: rgb(249, 239, 54);
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   font-family: "Comic Sans MS", cursive, sans-serif;
-  animation: pulsate 1.5s ease-in-out infinite; /* Apply animation */
+  animation: pulsate 1.5s ease-in-out infinite;
 }
 span {
   color: #0041a3;
-  animation: pulsate 1.5s ease-in-out infinite; /* Apply animation */
+  animation: pulsate 1.5s ease-in-out infinite;
 }
