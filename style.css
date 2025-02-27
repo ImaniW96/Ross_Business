@@ -35,8 +35,8 @@ main {
 }
 .ross__title {
   position: absolute;
-  top: 20%;
-  left: 25%;
+  top: 25%;
+  left: 28%;
   transform: translate(-50%, -50%);
   font-size: 200px;
   color: rgb(249, 239, 54);
