@@ -94,7 +94,7 @@ h4,
 h5,
 h6 {
   margin: 0;
-  font-weight: normal;
+  font-weight: 900;
   line-height: 1.2;
 }
 
@@ -114,7 +114,7 @@ var,
 sub,
 sup {
   font-style: normal;
-  font-weight: normal;
+  font-weight: 900;
   text-decoration: none;
 }
 

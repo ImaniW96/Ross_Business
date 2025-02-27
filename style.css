@@ -50,9 +50,23 @@ main {
   color: rgb(249, 239, 54);
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   font-family: "Comic Sans MS", cursive, sans-serif;
+  font-weight: 900;
   animation: pulsate 1.5s ease-in-out infinite;
 }
 span {
   color: #0041a3;
   animation: pulsate 1.5s ease-in-out infinite;
+}
+.ross__button {
+  position: absolute;
+  width: 300px;
+  height: 100px;
+  bottom: 20%;
+  /* border-radius: 1%;  */
+  background-color: rgb(255, 255, 255, 0.6);
+  border: 1px solid #0041a3;
+  box-sizing: border-box;
+}
+.ross__button:hover {
+  background-color: #eff328;
 }
