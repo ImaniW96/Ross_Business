@@ -1,0 +1,133 @@
+/* Normalize.css v8.0.1 | MIT License | https://github.com/necolas/normalize.css */
+
+/* 1. Set default styles for all elements */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: inherit;
+  font-size: inherit;
+  vertical-align: baseline;
+}
+
+/* 2. HTML5 elements are block by default */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section {
+  display: block;
+}
+
+/* 3. Ensure consistent line heights */
+body {
+  line-height: 1.5;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #333;
+  background-color: #fff;
+}
+
+/* 4. List styles */
+ol,
+ul {
+  list-style: none;
+}
+
+/* 5. Links styles */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* 6. Tables */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px;
+}
+
+/* 7. Images and media elements */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* 8. Form elements */
+input,
+textarea,
+select,
+button {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  color: inherit;
+  background: none;
+  border: none;
+}
+
+/* 9. Buttons */
+button {
+  cursor: pointer;
+}
+
+/* 10. Set default margins for heading elements */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-weight: normal;
+  line-height: 1.2;
+}
+
+/* 11. Ensure correct baseline alignment for inline elements */
+abbr,
+acronym,
+b,
+strong,
+em,
+i,
+u,
+dfn,
+code,
+samp,
+kbd,
+var,
+sub,
+sup {
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+/* 12. Prevent image resizing */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* 13. Ensure elements inherit the font styles */
+html,
+body {
+  font-size: 100%;
+  font-family: sans-serif;
+  line-height: 1.5;
+}
