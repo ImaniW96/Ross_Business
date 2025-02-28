@@ -1,0 +1,21 @@
+.popup {
+  width: 600px;
+  height: 500px;
+  background-color: #fff;
+  position: relative;
+  justify-content: center;
+}
+.popup__content {
+  margin: 20px;
+  padding: 10px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 4000;
+  font-family: "Courier New", Courier, monospace;
+  color: #000;
+}
+
+.popup__header {
+  font-size: 25px;
+  color: #3187f7;
+}
