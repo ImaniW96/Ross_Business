@@ -7,7 +7,7 @@ confetti({
 
 window.onload = () => {
   confetti({
-    particalCount: 800,
+    particleCount: 800,
     spread: 100,
     origin: { x: 0.5, y: 0.5 },
   });
