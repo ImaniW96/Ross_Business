@@ -82,18 +82,19 @@ span {
 }
 .ross__popup_content {
   margin: 10px;
-  padding: 10px;
+
   text-align: center;
   font-size: 16px;
   font-weight: 4000;
   font-family: "Courier New", Courier, monospace;
-  color: #9c8f00;
+  color: #000000;
   overflow: hidden;
 }
 
 .ross__popup_header {
   font-size: 25px;
   color: #3187f7;
+  padding: 10px;
 }
 .ross__close-btn {
   position: absolute;
@@ -101,6 +102,12 @@ span {
 }
 .ross__overlay {
   display: block;
+}
+.ross__popup_paragraph {
+  padding: 20px;
+}
+.ross__popup_p2 {
+  padding: 10px;
 }
 
 #overlay {
